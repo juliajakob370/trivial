@@ -134,14 +134,27 @@ class QuestionSeeder extends Seeder
         $this->seedCategory('Video Games', [
             ['Which company created the video game franchise "Super Mario"?', 'Sega', 'Nintendo', 'Sony', 'Capcom', 'B'],
             ['Which video game is widely cited as the best-selling video game of all time?', 'Tetris', 'Minecraft', 'Grand Theft Auto V', 'Wii Sports', 'B'],
-            ['In chess, how many squares are on the board?', '32', '48', '64', '100', 'C'],
             ['Which video game franchise features a green-clad hero named Link?', 'Final Fantasy', 'The Legend of Zelda', 'Kingdom Hearts', 'Metroid', 'B'],
-            ['What is the objective of the card game "Uno"?', 'Collect all four suits', 'Be the first to get rid of all your cards', 'Build the highest score', 'Trade cards with opponents', 'B'],
             ['Which company developed the "PlayStation" console?', 'Microsoft', 'Nintendo', 'Sony', 'Atari', 'C'],
+            ['Which puzzle video game involves fitting falling blocks together?', 'Pac-Man', 'Tetris', 'Snake', 'Space Invaders', 'B'],
+            ['In "Stardew Valley," what do you inherit from your grandfather at the start of the game?', 'A farm', 'A shop', 'A boat', 'A mine', 'A'],
+            ['In "Subnautica," what is the name of the spaceship that crashes at the start of the game?', 'The Odyssey', 'The Aurora', 'The Nautilus', 'The Voyager', 'B'],
+            ['Which video game franchise is set primarily in the fictional city of Los Santos?', 'Saints Row', 'Watch Dogs', 'Grand Theft Auto', 'Sleeping Dogs', 'C'],
+            ['In which video game series would you find the character "Master Chief"?', 'Gears of War', 'Call of Duty', 'Destiny', 'Halo', 'D'],
+            ['Which blue hedgehog is the mascot of a long-running Sega video game franchise?', 'Crash Bandicoot', 'Sonic', 'Rayman', 'Spyro', 'B'],
+        ]);
+
+        $this->seedCategory('Game Night', [
+            ['In chess, how many squares are on the board?', '32', '48', '64', '100', 'C'],
+            ['What is the objective of the card game "Uno"?', 'Collect all four suits', 'Be the first to get rid of all your cards', 'Build the highest score', 'Trade cards with opponents', 'B'],
             ['In Monopoly, how much money do you collect when you pass "Go"?', '$100', '$200', '$300', '$400', 'B'],
             ['How many pieces does each player start with in a game of chess?', '12', '14', '16', '18', 'C'],
-            ['Which puzzle video game involves fitting falling blocks together?', 'Pac-Man', 'Tetris', 'Snake', 'Space Invaders', 'B'],
             ['In standard Scrabble, how many points is each "Q" or "Z" tile worth?', '5', '8', '10', '12', 'C'],
+            ['In the board game "Clue" (Cluedo), how many weapons are there to choose from?', '5', '6', '7', '8', 'B'],
+            ['What is the maximum number of players in the standard base version of "Catan"?', '3', '4', '5', '6', 'B'],
+            ['In poker, what is the highest-ranking standard hand?', 'Four of a Kind', 'Full House', 'Royal Flush', 'Straight Flush', 'C'],
+            ['In "Yahtzee," how many dice are used?', '4', '5', '6', '7', 'B'],
+            ['In Checkers (Draughts), how many pieces does each player start with?', '10', '12', '14', '16', 'B'],
         ]);
     }
 

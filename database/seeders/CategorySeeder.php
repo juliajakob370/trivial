@@ -23,6 +23,7 @@ class CategorySeeder extends Seeder
             ['name' => 'Sports', 'slug' => 'sports', 'accent_color' => '#7F4D6D', 'icon' => '⚽'],
             ['name' => 'Geography', 'slug' => 'geography', 'accent_color' => '#6C4160', 'icon' => '🌍'],
             ['name' => 'Video Games', 'slug' => 'video-games', 'accent_color' => '#593554', 'icon' => '🎮'],
+            ['name' => 'Game Night', 'slug' => 'game-night', 'accent_color' => '#462948', 'icon' => '🎲'],
         ];
 
         foreach ($categories as $index => $category) {
