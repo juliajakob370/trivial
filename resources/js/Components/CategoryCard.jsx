@@ -40,7 +40,7 @@ export default function CategoryCard({ title, slug, icon, accentColor, href, hig
             </div>
 
             <div
-                className="flex aspect-[4/3] items-center justify-center bg-blush/90 text-5xl sm:text-6xl"
+                className="flex aspect-[4/3] items-center justify-center bg-blush/40 text-5xl sm:text-6xl"
                 style={{ clipPath: pixelClip(ART_NOTCH) }}
             >
                 {artMissing ? (
