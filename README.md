@@ -17,7 +17,7 @@ A fun little trivia game :)
 <img width="1494" height="953" alt="image" src="https://github.com/user-attachments/assets/92c7523b-6789-4b5d-9f7a-1775ee88e2be" />
 
 ### Leaderboard - see how you stack up against other players!
-<img width="1494" height="953" alt="image" src="https://github.com/user-attachments/assets/92c7523b-6789-4b5d-9f7a-1775ee88e2be" />
+<img width="1464" height="493" alt="image" src="https://github.com/user-attachments/assets/7a16874d-15df-4a7d-9609-ac66a5a28706" />
 
 All the pixel art was made by me on https://www.piskelapp.com/
 
